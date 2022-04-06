@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         private const val RC_SIGN_IN = 9001
     }
 
-    //Cliente de autenticación de google
+    //Cliente de autenticación
     private lateinit var googleSignInClient: GoogleSignInClient
 
     private lateinit var auth: FirebaseAuth
